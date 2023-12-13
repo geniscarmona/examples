@@ -1,0 +1,12 @@
+$TTL 604800
+@ IN SOA piringalla.local. admin.piringalla.local. (
+ 2023120101 ; Serial
+ 604800 ; Refresh
+ 86400 ; Retry
+ 2419200 ; Expire
+ 604800 ) ; Negative Cache TTL
+; Name servers
+@ IN NS ns.piringalla.local.
+; Hosts
+ns IN A 195.1.1.1
+marketing IN A 195.1.1.1
